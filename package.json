@@ -1,0 +1,16 @@
+{
+  "name": "rockpaperscissor_js",
+  "version": "1.0.0",
+  "description": "A Rock Paper Scissors Game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "L4TTiCe",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
