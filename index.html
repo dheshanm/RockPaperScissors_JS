@@ -4,24 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Lets Rock!!!</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js" async></script>
+	<title>Lets Rock !</title>
 </head>
-<body>
-	<h1>Rock Paper and Scissors</h1>
-	<h3>Lets Play !</h3>
-
-	<div>
-		<h3>Choose your Weapon :</h3>
-		<input type="radio" name="userChoice" id="userChoice" value="rock" onclick="game()">Rock<br>
-		<input type="radio" name="userChoice" id="userChoice" value="paper" onclick="game()">Paper<br>
-		<input type="radio" name="userChoice" id="userChoice" value="scissors" onclick="game()">Scissors<br>
-		<br>
-		<input type="submit" onclick="game()">
+<body id='container'>
+	<div class='dashboard-up ai center'>
+		<img class="rock" src="res/rock.svg">
+		<img class="paper" src="res/paper.svg">
+		<img class="scissors" src="res/scissors.svg">
 	</div>
-
-	<div>
-		<p id="result"></p>
+	<div class='scoring center'>
+		<p id="score">0 : 0</p>
+		<p id="comment"></p>
+	</div>
+	<div class='dashboard-down user center'>
+			<img class="rock" src="res/rock.svg">
+			<img class="paper" src="res/paper.svg">
+			<img class="scissors" src="res/scissors.svg">
 	</div>
 </body>
-<script src="js/script.js"></script>
 </html>
