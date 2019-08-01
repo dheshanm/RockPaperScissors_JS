@@ -97,6 +97,11 @@ user.forEach(btn => btn.addEventListener('click', (e) => {
 
   e.target.classList.add('selected-user');
   aiBtn.classList.add('selected-ai');
+
+  // Failsafe to prevent button grom getting stuck in active state
+  setTimeout(() => {
+    btns.forEach(btn0 => btn0.classList.remove('selected-user'));
+  }, 100);
 }));
 
 btns.forEach(btn => btn.addEventListener('transitionend', (e) => {
