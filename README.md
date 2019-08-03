@@ -13,4 +13,4 @@ Some of the Features of this project include
 ```
 
 ### Screenshot
-![GUI](https://raw.githubusercontent.com/L4TTiCe/RockPaperScissor_JS/master/res/image/screenshop.PNG)
+![GUI](https://raw.githubusercontent.com/L4TTiCe/RockPaperScissors_JS/master/res/image/screenshot.PNG)
